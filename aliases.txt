@@ -2,7 +2,7 @@ ConfigurationAliases
 oldpxalive 494 ;
 PixelAliveWBC168  655 ;
 PixelAliveWBC167  656 ;
-Physics     617   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  Default  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  ;
+Physics     617   ;
 Physics_p0ns     605   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p0ns  ;
 Physics_p1ns     606   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p1ns  ;
 Physics_p2ns     607   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p2ns  ;
