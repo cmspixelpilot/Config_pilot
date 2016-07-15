@@ -1,7 +1,4 @@
 ConfigurationAliases
-oldpxalive     494   ;
-PixelAliveWBC168     655   ;
-PixelAliveWBC167     656   ;
 Physics     1806   ;
 Physics_p0ns     1807   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p0ns  ;
 Physics_p1ns     1808   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p1ns  ;
@@ -178,9 +175,15 @@ Physics_p146ns     1978   detconfig  Default  lowvoltagemap  Default  nametransl
 Physics_p147ns     1979   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p22ns  ;
 Physics_p148ns     1980   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p23ns  ;
 Physics_p149ns     1981   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
+oldpxalive     494   ;
 TBMDelay     1982   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  calib  TBMDelay  ;
+PixelAliveWBC168_5x5     1983   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  calib  PixAlive5x5  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  ;
+PixelAliveWBC167_5x5     1984   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  calib  PixAlive5x5  dac  WBC167  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  ;
+PixelAliveWBC167_555     1985   detconfig  Five_modules  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  calib  PixAlive5x5  dac  WBC167  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  ;
+PixelAlive5     1986   detconfig  Five_modules  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  calib  PixAlive  dac  WBC167  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  ;
 VersionAliases
 detconfig  33 Default ;
+detconfig  31 Five_modules ;
 lowvoltagemap  0 Default ;
 nametranslation  0 Default ;
 fedconfig  0 Default ;
@@ -193,6 +196,7 @@ tbm  47 Default ;
 dcdc  1 Default ;
 portcard  0 Default ;
 portcardmap  0 Default ;
+ttcciconfig  0 Default ;
 ttcciconfig  7 CTC ;
 ltcconfig  0 Default ;
 tkfecconfig  0 Default ;
@@ -229,5 +233,6 @@ globaldelay25  21 p21ns ;
 globaldelay25  22 p22ns ;
 globaldelay25  23 p23ns ;
 globaldelay25  24 p24ns ;
-ttcciconfig  32 default ;
+calib  14 PixAlive5x5 ;
 calib  135 TBMDelay ;
+calib  136 PixAlive ;
