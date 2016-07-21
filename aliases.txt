@@ -1,5 +1,5 @@
 ConfigurationAliases
-Physics     1989   ;
+Physics     1993   ;
 Physics_p0ns     1807   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p0ns  ;
 Physics_p1ns     1808   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p1ns  ;
 Physics_p2ns     1809   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p2ns  ;
@@ -175,10 +175,12 @@ Physics_p146ns     1978   detconfig  Default  lowvoltagemap  Default  nametransl
 Physics_p147ns     1979   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p22ns  ;
 Physics_p148ns     1980   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p23ns  ;
 Physics_p149ns     1981   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
-Physics_LPMch8_p149ns     1990   detconfig  ch8  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  LPM  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
+Physics_LPMch7_p149ns     1997   detconfig  ch7  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  LPM  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
+Physics_LPMch8_p149ns     1993   detconfig  ch8  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  LPM  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
 Physics_LPM1_p149ns     1988   detconfig  One_module  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  LPM  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
 Physics_LPM2_p149ns     1989   detconfig  Two_modules  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  LPM  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
-Physics_LPM2b_p149ns     1991   detconfig  Two_modules_3478  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  LPM  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
+Physics_LPM2b_p149ns     1996   detconfig  Two_modules_3478  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  LPM  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
+Physics_LPM2c_p149ns     1995   detconfig  Two_modules_783334  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  LPM  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
 Physics_LPM5_p149ns     1987   detconfig  Five_modules  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC163  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  LPM  ltcconfig  Default  tkfecconfig  Default  globaldelay25  p24ns  ;
 oldpxalive     494   ;
 TBMDelay     1982   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  calib  TBMDelay  ;
@@ -189,11 +191,13 @@ PixelAlive5     1986   detconfig  Five_modules  lowvoltagemap  Default  nametran
 SCurve5_ix9     1992   detconfig  Five_modules  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  Default  mask  Default  trim  Default  calib  SCurve_ix9  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  ;
 VersionAliases
 detconfig  33 Default ;
-detconfig  33 ch8 ;
+detconfig  33 ch7 ;
+detconfig  38 ch8 ;
 detconfig  31 Five_modules ;
 detconfig  35 One_module ;
 detconfig  36 Two_modules ;
 detconfig  37 Two_modules_3478 ;
+detconfig  39 Two_modules_783334 ;
 lowvoltagemap  0 Default ;
 nametranslation  0 Default ;
 fedconfig  0 Default ;
