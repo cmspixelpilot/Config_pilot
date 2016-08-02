@@ -37840,3 +37840,43 @@ tkfecconfig   0
 globaldelay25   0
 calib   137
 
+key 2007
+detconfig   33
+lowvoltagemap   0
+nametranslation   0
+fedconfig   0
+fecconfig   0
+fedcard   26
+dac   81
+mask   23
+trim   11
+tbm   47
+dcdc   1
+portcard   0
+portcardmap   0
+ttcciconfig   7
+ltcconfig   0
+tkfecconfig   0
+globaldelay25   0
+calib   138
+
+key 2008
+detconfig   33
+lowvoltagemap   0
+nametranslation   0
+fedconfig   0
+fecconfig   0
+fedcard   26
+dac   81
+mask   23
+trim   11
+tbm   47
+dcdc   1
+portcard   0
+portcardmap   0
+ttcciconfig   7
+ltcconfig   0
+tkfecconfig   0
+globaldelay25   0
+calib   139
+
