@@ -192,11 +192,15 @@ PixelAliveWBC168_5x5     1983   detconfig  Default  lowvoltagemap  Default  name
 PixelAliveWBC167_5x5     1984   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  calib  PixAlive5x5  dac  WBC167  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  ;
 PixelAliveWBC167_555     2002   detconfig  Five_modules  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  calib  PixAlive5x5  dac  WBC167  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  ;
 PixelAlive5     2003   detconfig  Five_modules  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  calib  PixAlive  dac  WBC167  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  ;
-SCurve5_ix9     2004   detconfig  Five_modules  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  Default  mask  Default  trim  Default  calib  SCurve_ix9  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  ;
-old_scurve  475 ;
+SCurve5_ix9     2009   detconfig  Five_modules  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  Default  mask  Default  trim  Default  calib  SCurve_ix9  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  Default  ltcconfig  Default  tkfecconfig  Default  ;
+old_scurve     475   ;
 TBMDelay_ch7     2006   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  calib  TBMDelay_ch7  ;
 TBMDelay_PLL_ch7     2007   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  calib  TBMDelay_PLL_ch7  ;
 TBMDelay_PLL_ch78     2008   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  WBC168  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  calib  TBMDelay_PLL_ch78  ;
+TBMDelay_PLL_ch7_dacD     2010   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  Default  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  calib  TBMDelay_PLL_ch7  ;
+last_good_TBMDelay     497   ;
+TBMDelay_PLL_ch78_dacD     2011   detconfig  Default  lowvoltagemap  Default  nametranslation  Default  fedconfig  Default  fecconfig  Default  fedcard  Default  dac  Default  mask  Default  trim  Default  tbm  Default  dcdc  Default  portcard  Default  portcardmap  Default  ttcciconfig  CTC  ltcconfig  Default  tkfecconfig  Default  globaldelay25  Default  calib  TBMDelay_PLL_ch78  ;
+TBMDelay_test  2012 ;
 VersionAliases
 detconfig  33 Default ;
 detconfig  40 ch3 ;
@@ -215,7 +219,7 @@ nametranslation  0 Default ;
 fedconfig  0 Default ;
 fecconfig  0 Default ;
 fedcard  26 Default ;
-dac  81 Default ;
+dac  78 Default ;
 mask  23 Default ;
 trim  11 Default ;
 tbm  47 Default ;
