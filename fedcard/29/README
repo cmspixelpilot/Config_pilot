@@ -1,0 +1,3 @@
+// Bora Akgun
+- Inherited from Fedcard/26 with only difference in master delay
+FED Master delay: 3 -> 64 clock cycles
