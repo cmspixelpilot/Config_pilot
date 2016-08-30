@@ -1,0 +1,3 @@
+#FED number     crate     vme base address  type        URI
+40              1           0x3c000000      VMEPiggy
+1240            1           0x4d8           CTA         chtcp-2.0://ctrl-s2c16-07-01:10203?target=amc-s1g03-13-03:50001

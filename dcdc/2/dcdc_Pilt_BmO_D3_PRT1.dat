@@ -1,0 +1,7 @@
+Type: pilot
+Enabled: yes
+CCUAddressEnable: 0x7e
+CCUAddressPgood: 0x7d
+PIAChannelAddress: 0x30
+PortNumber: 1
+PortNumber: 2
