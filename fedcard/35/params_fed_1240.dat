@@ -13,7 +13,7 @@ TBM trailer mask: 0xff
 TBM trailer mask 2: 0x7
 Private event number: 1
 Timeout checking enabled: 1
-Timeout counter start: 40
+Timeout counter start: 255
 Timeout number OOS threshold: 255
 Event count checking enabled: 1
 Number event count errors before OOS: 255
