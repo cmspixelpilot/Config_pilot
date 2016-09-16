@@ -43965,3 +43965,25 @@ tkfecconfig   0
 trim   11
 ttcciconfig   0
 
+key 2320
+amc13   0
+calib   161
+dac   78
+dcdc   2
+detconfig   49
+fecconfig   0
+fedcard   35
+fedconfig   1
+globaldelay25   0
+lowvoltagemap   0
+ltcconfig   0
+mask   23
+maxvsf   0
+nametranslation   4
+portcard   0
+portcardmap   1
+tbm   51
+tkfecconfig   0
+trim   11
+ttcciconfig   0
+
