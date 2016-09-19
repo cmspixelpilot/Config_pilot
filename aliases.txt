@@ -20,6 +20,9 @@ TBMDelay_PLL_10P1     2318   amc13  Default  calib  TBMDelay_PLL_10P1  dac  Defa
 TBMDelay_PLL_3P2     2319   amc13  Default  calib  TBMDelay_PLL_3P2  dac  Default  dcdc  Default  detconfig  M1_3P2  fecconfig  Default  fedcard  Calibs  fedconfig  Default  globaldelay25  Default  lowvoltagemap  Default  ltcconfig  Default  mask  Default  maxvsf  Default  nametranslation  Default  portcard  Default  portcardmap  Default  tbm  Default  tkfecconfig  Default  trim  Default  ttcciconfig  Default  ;
 TBMDelay_PLL_3P1     2320   amc13  Default  calib  TBMDelay_PLL_3P1  dac  Default  dcdc  Default  detconfig  M1_3P1  fecconfig  Default  fedcard  Calibs  fedconfig  Default  globaldelay25  Default  lowvoltagemap  Default  ltcconfig  Default  mask  Default  maxvsf  Default  nametranslation  Default  portcard  Default  portcardmap  Default  tbm  Default  tkfecconfig  Default  trim  Default  ttcciconfig  Default  ;
 Delay25     2321   amc13  Default  calib  Delay25  dac  Default  dcdc  Default  detconfig  Default  fecconfig  Default  fedcard  Default  fedconfig  Default  globaldelay25  Default  lowvoltagemap  Default  ltcconfig  Default  mask  Default  maxvsf  Default  nametranslation  Default  portcard  Default  portcardmap  Default  tbm  Default  tkfecconfig  Default  trim  Default  ttcciconfig  Default  ;
+POH_bias_3P1     2325   amc13  Default  calib  POH_bias_3P1  dac  Default  dcdc  Default  detconfig  M4_BmI  fecconfig  Default  fedcard  Calibs  fedconfig  Default  globaldelay25  Default  lowvoltagemap  Default  ltcconfig  Default  mask  Default  maxvsf  Default  nametranslation  Default  portcard  Default  portcardmap  Default  tbm  Default  tkfecconfig  Default  trim  Default  ttcciconfig  Default  ;
+POH_bias_BmI     2326   amc13  Default  calib  POH_bias  dac  Default  dcdc  Default  detconfig  M4_BmI  fecconfig  Default  fedcard  Calibs  fedconfig  Default  globaldelay25  Default  lowvoltagemap  Default  ltcconfig  Default  mask  Default  maxvsf  Default  nametranslation  Default  portcard  Default  portcardmap  Default  tbm  Default  tkfecconfig  Default  trim  Default  ttcciconfig  Default  ;
+POH_bias_6     2327   amc13  Default  calib  POH_bias  dac  Default  dcdc  Default  detconfig  Six_modules  fecconfig  Default  fedcard  Calibs  fedconfig  Default  globaldelay25  Default  lowvoltagemap  Default  ltcconfig  Default  mask  Default  maxvsf  Default  nametranslation  Default  portcard  Default  portcardmap  Default  tbm  Default  tkfecconfig  Default  trim  Default  ttcciconfig  Default  ;
 VersionAliases
 amc13  0 Default ;
 calib  158 Bump_bonds ;
@@ -29,6 +32,8 @@ calib  9 SCurve_ix9 ;
 calib  14 PixAlive5x5 ;
 calib  135 TBMDelay ;
 calib  136 PixAlive ;
+calib  162 POH_bias ;
+calib  163 POH_bias_3P1 ;
 calib  137 TBMDelay_10P1A ;
 calib  138 TBMDelay_PLL_10P1A ;
 calib  143 TBMDelay_PLL_10P1B ;
@@ -74,6 +79,7 @@ detconfig  36 M2_3P1_10P1 ;
 detconfig  37 M2_10P1_11P2 ;
 detconfig  39 M2_3P2_10P1 ;
 detconfig  44 M3_3P2_10P1_11P2 ;
+detconfig  53 M4_BmI ;
 detconfig  43 Five_modules ;
 detconfig  52 Six_modules ;
 fecconfig  0 Default ;
